@@ -1,0 +1,49 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu
+{
+    text-align: right;
+    background-color: rgb(9, 185, 185);
+}
+
+.menu ul 
+{
+    display: inline-flex;
+    list-style: none
+}
+
+.menu ul li 
+{
+    padding: 10px;
+    margin: 8px;
+}
+
+.menu ul li a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu ul li:hover
+{
+    background-color: rgba(202, 48, 9, 0.705);
+    border-radius: 5px;
+}
+
+.val-box
+{
+    background-color: rgba(255, 81, 0, 0.699);
+    padding: 10px;
+    margin: 8px;
+    width: 200px;
+}
+
+.interface
+{
+    display: inline-flex;
+}

@@ -1,0 +1,129 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.menu
+{
+    text-align: right;
+    background-color: rgb(9, 185, 185);
+}
+
+.menu ul 
+{
+    display: inline-flex;
+    list-style: none
+}
+
+.menu ul li 
+{
+    padding: 10px;
+    margin: 8px;
+}
+
+.menu ul li a 
+{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu ul li:hover
+{
+    background-color: rgba(202, 48, 9, 0.705);
+    border-radius: 5px;
+}
+
+.contain
+{
+    text-align: center;
+    background-color: rgb(9, 185, 185);
+    width: 400px;
+    height: 450px;
+    border-radius: 5px;
+    margin-top: 5%;
+}
+
+.contain .cr select
+{
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+.contain .registration input
+{
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+.contain .reason select
+{
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    outline: none;
+    border-top: none;
+    border-bottom-color: black;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+}
+
+
+.contain button
+{
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+
+.contain .reg
+{
+    width: 350px;
+    padding: 10px;
+    margin: 8px;
+    outline: none;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+.contain h2
+{
+    font-size: 35px;
+    padding: 10px;
+}
+
+::placeholder
+{
+    color: black;
+}
+
+.contain label 
+{
+    color: blue;
+}
